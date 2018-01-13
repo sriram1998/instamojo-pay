@@ -7,8 +7,8 @@ curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 curl_setopt($ch, CURLOPT_HTTPHEADER,
-            array("X-Api-Key:test_f5e6d0b5150a07b85bfe5a2323d",
-                  "X-Auth-Token:test_fba0d421d3605f1dfb7fc747477"));
+            array("X-Api-Key:key",
+                  "X-Auth-Token:token"));
 $payload = Array(
     'purpose' => 'FIFA 16',
     'amount' =>'2500',
